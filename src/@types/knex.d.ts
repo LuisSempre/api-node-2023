@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 import { Knex } from 'knex'
 
 declare module 'knex/types/tables' {
@@ -8,7 +7,7 @@ declare module 'knex/types/tables' {
       title: string
       amount: number
       created_at: string
-      session_id: string
+      session_id?: string
     }
   }
 }
